@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <title>
+            HTML - CSS Basics
+        </title>
+        <link rel="stylesheet" href="css/style.css"> 
+        <style>
+            /* Types of selectors */
+                 /* Element selector */
+                /* P {
+                    background: blueviolet;
+                } */
+
+                /* ID Selector */
+                #myName {
+                    background: green;
+                }
+
+                /* Class Selector */
+                .Fruits{
+                    background-color: darkorange;
+                } 
+
+        </style>
+
+        <style>
+            table, th, td {
+            border: 1px solid black;
+            }
+        </style>
+
+        <style>
+            p.dotted {border-style: dotted;}
+            p.dashed {border-style: dashed;}
+            p.solid {border-style: solid;}
+            p.double {border-style: double;}
+            p.groove {border-style: groove;}
+            p.ridge {border-style: ridge;}
+            p.inset {border-style: inset;}
+            p.outset {border-style: outset;}
+            p.none {border-style: none;}
+            p.hidden {border-style: hidden;}
+            p.mix {border-style: dotted dashed solid double;}
+        </style>
+
+        <style>
+            img {
+            border-radius: 8px;
+            }
+        </style>
+
+    </head>
+
+    <body style="background-color: cyan;">
+        <h1 style="border: 2px solid tomato;"> Hello World </h1>
+        <p style="color: red;"> This is paragraph </p>
+        <p style="background-color: yellow;">This is paragraph</p>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+        <!-- This is a comment -->
+        <p id = myName> My name is Dhyana  </p>
+        <p class="Fruits"> Apple </p>
+        <P class="Fruits"> Mango </P>
+        <div class="nav">
+            <ul class="items">
+                <li class="item">item</li>
+                <li class="item">item</li>
+                <li class="item">item</li>
+                <li class="item">item</li>
+                <li class="item">item</li>
+            </ul>
+        </div>
+        <div Style = "color : rgb(31, 136, 66);" Class ="class"> I am Dhyana </div>
+        <p>My name is <q>Dhyana</q></p>
+        <bdo dir="rtl">I am React native developer </bdo>
+        <BR>
+        <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+
+        <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+        <aside>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </aside>
+
+        <button type="button" onclick="alert('Hello TECHVOOT Team!')">Click Me!</button>
+
+        <h1>HTML Table</h1>
+
+        <table>
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>15000</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>17000</td>
+        </tr>
+        </table>
+        <h1> Data List </h1>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+        <input type="submit">
+        <br>
+        <br>
+
+        <div class="buttons">
+            <button name="submit" class="action_btn submit" type="submit" value="Save" onclick="myFunction()">Save</button>
+            <button name="submit" class="action_btn cancel" type="submit" value="Cancel" onclick="myFunction2()">Cancel</button>
+        </div>
+
+        <p>This text contains <sub>subscript</sub> text.</p>
+        <p>This text contains <sup>superscript</sup> text.</p>
+
+        <h1>The ul element</h1>
+
+        <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        </ul>
+
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+        
+
+        <p style="border: dotted ;">Dotted border created using inline CSS  </p>
+
+        <img src = "paris.jpeg" alt = "paris"  width="300" height="300">
+    </body>
+</html>
+
